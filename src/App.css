@@ -1,0 +1,238 @@
+.header{
+  width: 100%;
+  height: 4rem;
+  background-color: rgb(231, 225, 225);
+  margin: 0%;
+}
+
+.sitename{
+  width: 20%;
+  float: left;
+  padding: 1% 0% 2% 10%;
+  margin: 0%;
+  font-size: x-large;
+}
+
+.signup{
+  width: 7%;
+  height: fit-content;
+  background-color: rgb(67, 67, 248);
+  padding: .5%;
+  margin: .8% 0% 2% 60%;
+  font-size: medium;
+  border-radius: 5px;
+}
+.image1{
+  width: 100%;
+  height:35rem;
+  background-size:cover;
+  background-image: url(./Components/Images/image1.jpg);
+  
+}
+.p1{
+  width: 30%;
+  float: left;
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  padding: 10% 35% 0% 35%;
+  text-align: center;
+  font-weight: 700;
+  
+  
+}
+
+.email{
+  width: 40%;
+  height: 3.5rem;
+  float: left;
+  padding:0%;
+  margin: 0% 2% 0% 30% ;
+  border-radius: 10px;
+}
+
+.submit{
+  width: 7%;
+  height: 3.5rem;
+  background-color: rgb(67, 67, 248); 
+  font-size: medium;
+  border-radius: 5px;
+  padding: .5%;
+  color: white;
+}
+
+.usage{
+  width:95%;
+  height:fit-content;
+  float: left;
+  margin: 0% 0% 8% 5%;   
+                                     
+}
+.container{
+  width: 33%;
+  float: left;
+}
+.heading{
+  width:80%;
+  font-size:25px;
+  padding: 2% 0% 1% 20%;
+  font-weight: 700;
+  float: left;
+}
+
+.shortnote{
+  width: 70%;
+  padding: 0% 13% 1% 5%;
+  color: rgb(134, 136, 138);
+  font-size:large;
+  margin: 0% 0% 0% 0%;
+  float: left;
+  text-align: center;
+}
+
+.container1{
+  width: 100%;
+  height: 30rem;
+  float:left;
+  
+}
+
+.para{
+  width: 50%;
+  float: left;
+}
+.use-head{
+  width: 80%;
+  float: left;
+  font-weight: 700;
+  font-size: 30px;
+  padding: 20% 0% 0% 15%;
+  margin-bottom: 0%;
+}
+
+.features{
+  width: 100;
+  float: left;
+  font-size: larger;
+  padding: 0% 10% 0% 15%;
+}
+
+.image2{
+  width: 50%;
+  float: left;
+  height: 30rem;
+  background-size: cover;
+  background-image: url(./Components/Images/image2.jpg);
+}
+
+.image3{
+  width: 50%;
+  float: left;
+  height: 30rem;
+  background-size: cover;
+  background-image: url(./Components/Images/image3.jpg);
+}
+
+.image4{
+  width: 50%;
+  float: left;
+  height: 30rem;
+  background-size: cover;
+  background-image: url(./Components/Images/image4.jpg);
+}
+
+.lastpara{
+  width: 70%;
+  float: left;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  padding: 3% 0% 0% 30%;
+}
+
+.socialmedia{
+  width: 100%;
+  height: fit-content;
+  color: blue;
+  text-decoration-line: underline;
+
+}
+
+.reviews{
+  width: 100%;
+  height: fit-content;
+  float: left;
+  text-align: center;
+  
+}
+.media{
+  width: 70%;
+  height: fit-content;
+  float:left ;
+  margin: 5% 5% 5% 7%;
+font-size: larger;
+}
+.subsocialmedia{
+  width: fit-content;
+  height: fit-content;
+  float: left;
+  padding: 1%;
+  margin: 0%;
+  cursor: pointer;
+  
+}
+
+.rights{
+  width: 100%;
+  height: fit-content;
+  float: left;
+  margin:0% 0% 0% .5%;
+  color: rgb(129, 129, 146);
+}
+
+.people{
+  width: 100%;
+  height: fit-content;
+  
+ 
+}
+.personimg{
+  width: 25%;
+  float: left;
+  height: fit-content;
+  border-radius: 10px;
+  padding-left: 5% ;
+  text-align: center;
+  
+  
+}
+.person{
+  width: 100%;
+  height: fit-content;
+  float: left;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#reviewheading{
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  margin: 5% 0% 3% 0%;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.reviewer{
+  width: 100%;
+  height: fit-content;
+  float: left;
+  padding: 2% 0% 5% 0%;
+}
+
+.image5{
+  width: 100%;
+  height: 25em;
+  background-image: url(./Components/Images/image1.jpg);
+  background-size: cover;
+  float: left;
+}
