@@ -1,17 +1,17 @@
 const data = [
     {
-      image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fcollections%2F9452494%2Fdemo-profile-images&psig=AOvVaw2Sz80telaifefYCRyZLdze&ust=1729390285506000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKD70ICvmYkDFQAAAAAdAAAAABAE',
-      text1: 'Margaret E.',
+      images: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      text1: 'Kevin',
       text2: '"This is fantastic! Thanks so much guys!"',
     },
     {
-      image: 'https://example.com/image2.jpg',
+      images: 'https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       text1: 'Fred S.',
       text2: '"Bootstrap is amazing. I have been using it to create lots of super nice landing pages."',
     },
     {
-      image: 'https://example.com/image3.jpg',
-      text1: 'Sarah W.',
+      images: 'https://images.unsplash.com/photo-1579038773867-044c48829161?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      text1: 'Brain',
       text2: '"Thanks so much for making these free resources available to us!"',
     },
    
@@ -21,8 +21,8 @@ const data = [
     return (
         <div className="reviewer">
           {data.map((item, index) => (
-            <div className="personimg" key={index}>
-              <img src={item.image} alt="Image" />
+            <div className="reviewers" key={index}>
+              <img className="personimg" src={item.images} alt="" />
               <p className="person">{item.text1}</p>
               <p className="person">{item.text2}</p>
             </div>

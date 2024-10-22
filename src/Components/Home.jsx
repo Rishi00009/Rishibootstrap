@@ -17,6 +17,7 @@ function home(){
             </div>
             <div className="usage">
                 <div className="container">
+                    
                     <p className="heading">Fully Responsive </p>
                     <p className="shortnote">This theme will look great on any device,no matrter the size!</p>
                 </div>
@@ -69,20 +70,24 @@ function home(){
                     <button className="submit">Submit</button>
                 </div>
                 <div className="socialmedia">
-                    <div className="media">
-                        <p className="subsocialmedia">About</p>
-                        <p className="subsocialmedia">contact</p>
-                        <p className="subsocialmedia">Terms of Use</p>
-                        <p className="subsocialmedia"> Privacy Policy</p>
-
-                        <p className="rights">© Your Website 2024. All Rights Reserved.</p>
-                    </div>
-                    <div>
+                      <div >
+                            <div className="media">
+                                <p className="subsocialmedia">About</p>
+                                <p className="subsocialmedia">contact</p>
+                                <p className="subsocialmedia">Terms of Use</p>
+                                <p className="subsocialmedia"> Privacy Policy</p>
+                                
+                                <p className="rights">© Your Website 2024. All Rights Reserved.</p>
                         
-                    </div>
-                    <div>
-
-                    </div>
+                        </div>
+                        <div className="icons">
+                             <div className="icon1"></div>
+                             <div className="icon2"></div>
+                             <div className="icon3"></div>
+                        </div>
+                    
+                </div>
+              
                 </div>
 
         </div>
